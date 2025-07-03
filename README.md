@@ -73,8 +73,8 @@ Using the `http` filter, I followed a TCP stream from `neverssl.com`. This showe
 - The browser sending a `GET /` request  
 - Server responding with `200 OK` and HTML content  
 - Headers such as `Content-Type: text/html`  
-
-> 📸 _Screenshot Placeholder: TCP Stream Conversation_
+### TCP Stream Analysis (`neverssl.com`)
+📸 ![TCP Stream - neverssl.com](screenshots/tcp_stream_neverssl.png)
 
 This illustrates how unencrypted traffic can be intercepted and analysed.
 
@@ -96,18 +96,6 @@ Wireshark helped me spot potentially risky activity like:
 - **IDS/IPS** – Detects and blocks malicious traffic (e.g., Snort, Suricata)  
 - **SIEM Tools** – Aggregate and analyse logs (e.g., Splunk, Microsoft Sentinel)  
 - **User Awareness Training** – Teaches safe browsing and phishing detection  
-
-> Sources: Fortinet, AWS (2024), Juniper Networks, IBM, Proofpoint
-
----
-
-## 🧠 User Awareness
-
-Educating users is essential. I’d explain security in relatable terms:
-
-> Everyday actions like online shopping or banking involve sharing sensitive data.  
-> Weak passwords, phishing scams, and public Wi-Fi can expose this info.  
-> Practicing safe habits—strong passwords, secure sites, MFA—helps protect privacy.
 
 ---
 
