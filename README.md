@@ -35,7 +35,6 @@ Understanding these helps identify normal vs suspicious network activity.
 - **Filter Used**: `dns`  
 - I focused on `dnsleaktest.com` which generated over 20 DNS queries during its test.  
 - Responses contained IP addresses of the queried domains.
-   
 ### DNS Queries (`dnsleaktest.com`)
 > 📸 ![DNS Queries](screenshots/dns_queries.png)
 
@@ -48,6 +47,7 @@ Understanding these helps identify normal vs suspicious network activity.
 - Since the site uses HTTP, both headers and body were visible in plain text.
 ### HTTP Traffic (`neverssl.com`)
 > 📸 ![HTTP GET Response](screenshots/http_get_response.png)
+> ![HTTP GET Response](screenshots/http_get_response1.png)
 
 This shows how insecure HTTP can expose sensitive data like login forms.
 
@@ -58,9 +58,11 @@ This shows how insecure HTTP can expose sensitive data like login forms.
 - **Filter Used**: `tls`  
 - Observed TLS handshakes including Client Hello and Server Hello  
 - Application data was encrypted, but certificate info was visible  
-
-> 📸 _Screenshot Placeholder: TLS Handshake (example.com)_  
-> 📸 _Screenshot Placeholder: Invalid Certificate (badssl.com)_
+### TLS Handshake (`example.com`)
+> 📸 ![TLS Handshake - example.com](screenshots/tls_handshake.png)
+> 📸 ![TLS Handshake - example.com](screenshots/tls_handshake1.png)
+> ### Invalid Certificate (`badssl.com`)
+> 📸![Invalid Certificate - badssl.com](screenshots/invalid_certificate_badssl.png)
 
 ---
 
