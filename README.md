@@ -123,18 +123,3 @@ Educating users is essential. I’d explain security in relatable terms:
 - Learned to apply and explain basic cybersecurity measures effectively  
 
 ---
-
-## 📷 Screenshots
-
-> Replace these placeholders with your screenshots:
-
-- `screenshots/dns_queries.png`  
-- `screenshots/http_get_response.png`  
-- `screenshots/tls_handshake.png`  
-- `screenshots/tcp_stream_neverssl.png`  
-- `screenshots/invalid_certificate_badssl.png`
-
----
-
-## 📁 Project Structure
-
