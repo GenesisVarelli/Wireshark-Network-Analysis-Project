@@ -34,8 +34,9 @@ Understanding these helps identify normal vs suspicious network activity.
 
 - **Filter Used**: `dns`  
 - I focused on `dnsleaktest.com` which generated over 20 DNS queries during its test.  
-- Responses contained IP addresses of the queried domains.  
-
+- Responses contained IP addresses of the queried domains.
+   
+### DNS Queries (`dnsleaktest.com`)
 > 📸 ![DNS Queries](screenshots/dns_queries.png)
 
 ---
@@ -45,8 +46,8 @@ Understanding these helps identify normal vs suspicious network activity.
 - **Filter Used**: `http`  
 - I observed HTTP GET requests and full response content.  
 - Since the site uses HTTP, both headers and body were visible in plain text.
-
-> 📸 _Screenshot Placeholder: HTTP Request & Response_
+### HTTP Traffic (`neverssl.com`)
+> 📸 ![HTTP GET Response](screenshots/http_get_response.png)
 
 This shows how insecure HTTP can expose sensitive data like login forms.
 
