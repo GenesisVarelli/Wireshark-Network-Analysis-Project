@@ -36,7 +36,7 @@ Understanding these helps identify normal vs suspicious network activity.
 - I focused on `dnsleaktest.com` which generated over 20 DNS queries during its test.  
 - Responses contained IP addresses of the queried domains.  
 
-> 📸 _Screenshot Placeholder: DNS Queries and Responses_
+> 📸 ![DNS Queries](screenshots/dns_queries.png)
 
 ---
 
